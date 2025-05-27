@@ -130,7 +130,7 @@ dependencies = [
 requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.115.11" },
     { name = "httpx", specifier = ">=0.25.0" },
-    { name = "litellm", specifier = ">=1.40.14" },
+    { name = "litellm", specifier = ">=1.70.0" },
     { name = "pydantic", specifier = ">=2.0.0" },
     { name = "python-dotenv", specifier = ">=1.0.0" },
     { name = "uvicorn", specifier = ">=0.34.0" },
@@ -642,7 +642,7 @@ wheels = [
 
 [[package]]
 name = "litellm"
-version = "1.63.11"
+version = "1.70.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -657,9 +657,9 @@ dependencies = [
     { name = "tiktoken" },
     { name = "tokenizers" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e7/47/7955210e2540fcde86a5848432823e7eb3a83b03aa06e97d63d1b07c3b30/litellm-1.63.11.tar.gz", hash = "sha256:89930895121d0cbf5553e560ed886c45be480ceec0eca3c53ae441473d5d46a4", size = 6630071 }
+sdist = { url = "https://files.pythonhosted.org/packages/63/d0/49995a571fadc2e0e933fbd6ced032453edc45ef986dba199aac4744cecb/litellm-1.70.0.tar.gz", hash = "sha256:357f3891e38f23a12f0932c235ed860dc41bc5880afaee7229e6d25318652706", size = 7611957 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/73/82aa275f2dd751d98e81b3287bc00366e9ec2d6cf9e1a7eff6522d5d2775/litellm-1.63.11-py3-none-any.whl", hash = "sha256:f3915dc35309b164ef2419ad05e5241ddd97f3f47aa036df28365bf889d8ea23", size = 6948073 },
+    { url = "https://files.pythonhosted.org/packages/56/59/e28db726addb57a207dec6617eb0d69d7e46e701bc1e6a7d69971371c84f/litellm-1.70.0-py3-none-any.whl", hash = "sha256:7e094057b38ddb1d77f61452895835aa5d376db1850e9a1bc0342c5631d89638", size = 7877518 },
 ]
 
 [[package]]
@@ -830,7 +830,7 @@ wheels = [
 
 [[package]]
 name = "openai"
-version = "1.66.3"
+version = "1.75.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -842,9 +842,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/77/5172104ca1df35ed2ed8fb26dbc787f721c39498fc51d666c4db07756a0c/openai-1.66.3.tar.gz", hash = "sha256:8dde3aebe2d081258d4159c4cb27bdc13b5bb3f7ea2201d9bd940b9a89faf0c9", size = 397244 }
+sdist = { url = "https://files.pythonhosted.org/packages/99/b1/318f5d4c482f19c5fcbcde190801bfaaaec23413cda0b88a29f6897448ff/openai-1.75.0.tar.gz", hash = "sha256:fb3ea907efbdb1bcfd0c44507ad9c961afd7dce3147292b54505ecfd17be8fd1", size = 429492 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/78/5a/e20182f7b6171642d759c548daa0ba20a1d3ac10d2bd0a13fd75704a9ac3/openai-1.66.3-py3-none-any.whl", hash = "sha256:a427c920f727711877ab17c11b95f1230b27767ba7a01e5b66102945141ceca9", size = 567400 },
+    { url = "https://files.pythonhosted.org/packages/80/9a/f34f163294345f123673ed03e77c33dee2534f3ac1f9d18120384457304d/openai-1.75.0-py3-none-any.whl", hash = "sha256:fe6f932d2ded3b429ff67cc9ad118c71327db32eb9d32dd723de3acfca337125", size = 646972 },
 ]
 
 [[package]]
